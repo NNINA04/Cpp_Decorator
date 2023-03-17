@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{470db958-6151-4dc8-93c2-1da321ce8dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cofee">
+      <UniqueIdentifier>{d1bb133e-f45d-4659-85aa-cf486c68bb4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BeverageParts">
+      <UniqueIdentifier>{7e4a2a26-be61-4d08-a658-54fd87d66ef0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkRoast.h">
+      <Filter>Header Files\Cofee</Filter>
+    </ClInclude>
+    <ClInclude Include="Chocolate.h">
+      <Filter>Header Files\BeverageParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Whip.h">
+      <Filter>Header Files\BeverageParts</Filter>
+    </ClInclude>
+    <ClInclude Include="BeveragePart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IBeverage.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Espresso.h">
+      <Filter>Header Files\Cofee</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
